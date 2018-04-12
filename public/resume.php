@@ -1,24 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Jason Snider</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/css/main.css" type="text/css">
-  </head>
-  <body>
-    <header>
-      <span class="logo">My Website</span>
-      <a id="toggleMenu">Menu</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<?php
 
+$pageTitle = "Resume -Jason Stollman"; 
+$description = "Jason Stollman's resume" ;
+$content = <<<EOT
+    
     <main>
       <h1>Jason Snider</h1>
 
@@ -114,22 +99,6 @@
       </section>
 
     </main>
+EOT;
 
-    <script>
-
-        var toggleMenu = document.getElementById('toggleMenu');
-        var nav = document.querySelector('nav');
-        toggleMenu.addEventListener(
-          'click',
-          function(){
-            if(nav.style.display=='block'){
-              nav.style.display='none';
-            }else{
-              nav.style.display='block';
-            }
-          }
-        );
-  
-      </script>
-  </body>
-</html>
+require '../core/layout.php';

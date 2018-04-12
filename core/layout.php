@@ -2,28 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Thank You</title>
+    <title><?php echo $pageTitle; ?></title>
+    <meta name="decription" content="<<?php echo $description; ?>"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/css/main.css" type="text/css">
   </head>
   <body>
-
     <header>
       <span class="logo">My Website</span>
       <a id="toggleMenu">Menu</a>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="resume.php">Resume</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
+    
+    <?php echo $content; ?>
 
-    <main>
-      <h1>Thank You!</h1>
-      <p>I appreciate that you’ve taken the time to write. I’ll get back to you very soon. Please come back again.</p>
-    </main>
 
     <script>
 
