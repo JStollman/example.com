@@ -4,13 +4,12 @@ $description = "Jason Stollman's website is all about Jason Stollman" ;
 $content = <<<EOT
    
    <main>
-      <h1>Hello, I'm Jason Snider</h1>
+      <h1>Hello, I'm Jason Stollman</h1>
       <p>
-        <img class="avatar" src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="My Avatar"> 
-        Jason Snider is a full stack web and hybrid mobile application developer, systems architect, Linux aficionado, 
-        open source advocate, impromptu DBA and security enthusiast with a sincere passion for building and 
-        advancing knowledge while resolving complex problems  and business challenges through technical 
-        innovation.
+        <img class="avatar" src="https://s.gravatar.com/avatar/b1341c3864e9e86a3afcba6584b28424?s=80" alt="My Avatar"> 
+        Jason Stollman Jason Stollman is a budding full stack web and hybrid mobile application developer.
+        Jason has over 20 years experience in various roles in the Aviation Industry.  He is a curious lifelong learner, 
+        who enjoys studying complex systems and creative problem solving.
       </p>
     </main>
 EOT;

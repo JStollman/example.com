@@ -8,11 +8,11 @@ $content = <<<EOT
       <h1>Jason Snider</h1>
 
       <div>
-        <a href="https://www.linkedin.com/in/jdsnider/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jason-stollman/" target="_blank" rel="noopener">LinkedIn</a>
         &#x25CF;
-        <a href="https://github.com/jasonsnider" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/JStollman" target="_blank" rel="noopener">GitHub</a>
         &#x25CF;
-        La Grange Park, IL
+        Chicago, IL
       </div>
       
       <section>
@@ -76,6 +76,22 @@ $content = <<<EOT
         </ul>
       </section>
   
+      <section>
+        <h3>United Airlines - Chicago, IL 2016-2017</h3>
+        
+      
+        <h4>Flight Dispatcher</h4>
+       
+        <ul>
+          <li>Exercised Operational Control of Extended Domestic Airline Flights</li>
+          <li>Cooordinated with flight crews, airport operatins, and multiple departments in the Network Operations Center to ensure smooth dat-to-day operations of the airline</li>
+          <li>Generated releases, flight plans, and fule loads for flight crews</li>
+          <li>Ensured safe operations by flight-following aircraft and monitoring weather and the National Airspace Airspace System</li>
+        </ul>
+
+      </section>
+
+
       <section>
         <h3>LexTech Global Services, Lisle, IL 2006-2007</h3>
         <p>
