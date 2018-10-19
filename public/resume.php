@@ -5,7 +5,7 @@ $description = "Jason Stollman's resume" ;
 $content = <<<EOT
     
     <main>
-      <h1>Jason Snider</h1>
+      <h1>Jason Stollman</h1>
 
       <div>
         <a href="https://www.linkedin.com/in/jason-stollman/" target="_blank" rel="noopener">LinkedIn</a>
@@ -62,24 +62,11 @@ $content = <<<EOT
       <section>
         <h2>Professional Experience</h2>
     
-        <h3>MicroTrain Technologies, Chicago, IL 2007-Present</h3>
-        <p>
-          Leads the development of spcial projects and ERP, CRM, CMS, Ecommece, AI, 
-          and social media systems.
-        </p>
-        <ul>
-          <li>Full stack LAMP</li>
-          <li>Full stack JavaScript with a focus on MEAN</li>
-          <li>Hybrid Mobile Development with Ionic</li>
-          <li>Designs and implements development processes</li>
-          <li>Conceives and implements development strategies</li>
-        </ul>
       </section>
   
       <section>
         <h3>United Airlines - Chicago, IL 2016-2017</h3>
         
-      
         <h4>Flight Dispatcher</h4>
        
         <ul>
@@ -91,28 +78,70 @@ $content = <<<EOT
 
       </section>
 
-
       <section>
-        <h3>LexTech Global Services, Lisle, IL 2006-2007</h3>
-        <p>
-          Developed a pilot system that pioneered the "Health 2.0" arena.
-        </p>
+        <h3>Envoy Airlines - Queens, NY 2007-2015</h3>
+    
+        <h4>Pilot</h4>
+       
         <ul>
-          <li>Project for Active Care Network.</li>
-          <li>Responsible for writing and testing code.</li>
-          <li>Implemented complex event processing.</li>
-          <li>Implemented mapping and geo data based functionality.</li>
-          <li>HTML, CSS, JavaScript, SQL, CakePHP</li>
+          <li>Second-in-Command for FAR Part 121 flights on EMB145 Series Aircraft</li>
         </ul>
+
+      </section>
+
+
+      <section>
+      <h3>Mercer County Community College, Trenton, NJ 2005–2007</h3>
+      
+      <h4>Flight Instructor</h4>
+     
+      <ul>
+      <li>Involved in all phases of training at FAR Parts 141 and 61 Flight School for Private and Commercial Certificates and Instrument ratings</li>
+      <li> Conducted flight training in: C152, C172, C172RG and BE76</li>
+      <li> Conducted ground and simliator instruction</li>
+      </ul>
+
       </section>
 
       <section>
-        <h3>Freelance, Columbus, OH 2003-2006</h3>
-        <p>
-            Built several websites and applications using PHP, MySQL, HTML, CSS and 
-            JavaScript.
-        </p>
+      <h3>Aero Taxi, Wilmington, DE 2006–2017</h3>
+      
+      <h4>Pilot</h4>
+     
+      <ul>
+      <li>Second-In-Command for FAR Parts 91 and 135 flights on PA-31-350 and BE-20 aircraft</li>
+      </ul>
+
       </section>
+
+      <section>
+      <h3>Chautauqua Airlines, Indianapolis, IN 2000–2004</h3>
+      
+      <h4>Flight Dispatcher</h4>
+     
+      <ul>
+      <li>Exercised Operational Control of Airline Flights</li>
+      <li>Coordinated with flight crews, maintenance control, crew schedliing, and ground operations to ensure smooth day-to-day operations of the airline</li>
+      <li>Generated releases, flight plans, and fuel loads for flight crews</li>
+      <li>Monitored weather and flight-followed aircraft to ensure safe operations</li>
+      </ul>
+
+      </section>
+
+      <section>
+      <h3>Dassault Falcon Jet, Teterboro, NJ 1999–2000</h3>
+      
+      <h4>Flight Operations Administrator</h4>
+     
+      <ul>
+      <li>Communicated with customers, salesmen, and executive to ensure all flights ran smoothly</li>
+      <li>Planned and flight-followed all demonstration flights</li>
+      <li>Assigned and schedlied crews for demonstration flights and pilot services</li>
+      </ul>
+
+      </section>
+
+      
 
     </main>
 EOT;

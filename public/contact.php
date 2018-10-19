@@ -59,7 +59,7 @@ if(!empty($input)) {
         ]
       );
 
-     header('LOCATION: thanks.html');
+     header('LOCATION: thanks.php');
     }else{
       $message = "<div class=\"message-error\">The form has errors!</div>";
     }
@@ -72,7 +72,7 @@ $message = (!empty($message)?$message:null);
 $content = <<<EOT
 <main>
 
-<h1>Contact Jason Snider</h1>
+<h1>Contact Jason Stollman</h1>
 {$message}
 
 <form action="contact.php" method="POST">
